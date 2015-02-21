@@ -1,0 +1,22 @@
+{
+  "name": "conservative-national-treasure",
+  "version": "0.0.1",
+  "authors": [
+    "Kane Clover"
+  ],
+  "description": "conservativenationaltreasure.com",
+  "main": "index.html",
+  "license": "All rights reserved",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.2",
+    "fontawesome": "~4.3.0"
+  }
+}

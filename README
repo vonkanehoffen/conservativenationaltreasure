@@ -1,0 +1,14 @@
+Switch-that.com Site
+
+Get started:
+
+$ npm install
+$ bower install
+$ composer install
+
+...to install the build tools & vendor libraries, then:
+
+$ grunt dev
+
+...to build the CSS and watch the LESS files for changes. 
+Point a web server at index.html and you're done! 
