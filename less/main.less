@@ -2,8 +2,56 @@
 
 @import "../bower_components/bootstrap/less/bootstrap.less";
 
+@cnt_pink: #FF00AE;
+
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
+#img-head {
+	padding-top: 30px;
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	color: @cnt_pink;
+	font-size: 80px;
+	text-align: center;
+}
+h2 {
+	font-family: 'Roboto', sans-serif;
+	color: @cnt_pink;
+}
+.products {
+	.img-responsive {
+		margin: 30px 0;
+	}
+}
+.t-shirt {
+	h2 {
+		margin: 33px 0;
+	}
+}
+.btn-circle {
+	display: inline-block;
+	background: @cnt_pink;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	margin: 0 10px;
+	color: #fff;
+	text-align: center;
+	overflow: hidden;
+	.fa {
+		font-size: 40px;
+		line-height: 100px;
+		transition: font-size 0.2s ease-in-out; 
+	}
+	&:hover {
+		color: #fff;
+		.fa {
+			font-size: 46px;
+		}
+	}
+}
