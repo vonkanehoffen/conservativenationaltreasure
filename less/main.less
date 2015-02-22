@@ -9,8 +9,27 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+#nav-top {
+	float: right;
+	height: 60px;
+	background: @cnt_pink;
+	border-radius: 0 0 10px 10px;
+	.link {
+		display: inline-block;
+		color: #fff;
+		line-height: 60px;
+		font-size: 26px;
+		height: 60px;
+		padding: 0 15px 0 0;
+	}
+	.link-shop {
+		padding-left: 15px;
+		margin-right: 15px;
+		border-right: 2px solid #fff;
+	}
+}
 #img-head {
-	padding-top: 30px;
+	// padding-top: 30px;
 }
 
 h1 {
@@ -21,6 +40,10 @@ h1 {
 }
 h2 {
 	font-family: 'Roboto', sans-serif;
+	color: @cnt_pink;
+}
+h3 {
+	font-family: 'Pacifico', cursive;
 	color: @cnt_pink;
 }
 .products {
@@ -54,4 +77,23 @@ h2 {
 			font-size: 46px;
 		}
 	}
+}
+.tagline {
+	margin-top: 60px;
+}
+.tag1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+.tag2 {
+	font-family: 'Pacifico', cursive;
+	font-size: 36px;
+	text-align: center;
+}
+
+#footer {
+	margin-top: 60px;
+	padding: 40px 0 60px 0;
+	background: tint(@cnt_pink, 80%);
 }
