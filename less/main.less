@@ -12,6 +12,7 @@ body {
 #nav-top {
 	float: right;
 	height: 60px;
+	margin-bottom: 20px;
 	background: @cnt_pink;
 	border-radius: 0 0 10px 10px;
 	.link {
@@ -123,4 +124,22 @@ h3 {
 	margin-top: 60px;
 	padding: 40px 0 60px 0;
 	background: tint(@cnt_pink, 80%);
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+	#nav-top { margin-bottom: 0; }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+	
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+	
 }
