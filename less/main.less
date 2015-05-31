@@ -3,11 +3,14 @@
 @import "../bower_components/bootstrap/less/bootstrap.less";
 
 @cnt_pink: #FF00AE;
+@btn-primary-bg: @cnt_pink;
+@btn-primary-border: darken(@cnt_pink, 5%);
 
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+a { font-weight: bold; }
 
 #nav-top {
 	float: right;
@@ -119,9 +122,28 @@ h3 {
 	background: #c92228;
 }
 
-
-#footer {
+.stickers {
 	margin-top: 60px;
+	padding: 10px 0 20px 0;
+	background: tint(@cnt_pink, 70%);
+	h3 {
+		font-size: 50px;
+		span {
+			font-family: 'Roboto', sans-serif;
+		}
+	}
+	p a {
+		color: @cnt_pink;
+	}
+}
+.btn-primary { font-weight: bold; }
+
+.img-sticker {
+	width: 100%;
+	max-width: 600px;
+	margin: -80px auto -100px auto;
+}
+#footer {
 	padding: 40px 0 0 0;
 	background: @cnt_pink;
 	color: #fff;
@@ -131,7 +153,6 @@ h3 {
 	}
 	a {
 		color: #fff;
-		font-weight: bold;
 	}
 }
 .mb-logo {
